@@ -1,0 +1,33 @@
+{
+  "name": "ESP-EFTDHT",
+  "keywords": "ESP8266, Framework, Sensors, Core",
+  "description": "ESP-EFTDHT are added libraries on top of the ESP-EFTCore to interact with DHT Temperature Sensors.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/gabrielklein/ESP-EFTDHT.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Gabriel Klein",
+      "email": "gabriel.klein@nuage.ch",
+      "url": "https://www.nuage.ch",
+      "maintainer": true
+    }
+  ],
+  "dependencies": {
+     "https://github.com/gabrielklein/ESP-EFTCore.git": "*",
+    "DHT sensor library": "*",
+    "Adafruit Unified Sensor": "*"
+  },
+  "exclude": [
+    "data",
+    "doc",
+    "lib",
+    "sample"
+  ],
+  "version": "0.002",
+  "frameworks": "arduino",
+  "platforms": "espressif8266"
+}
